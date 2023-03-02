@@ -1,0 +1,26 @@
+[
+  {
+     "id":"1",
+     "name":"Supriyo Mal, CTO and co-founder",
+     "avatar":"https://avatars.githubusercontent.com/u/72860690?s=400&u=3b3ca2780b966cbb23f316be89f26ff52a6f8fbb&v=4",
+     "about":"Frontend Developer & Open-Source Enthusiast",
+     "email":"iamsupriyomal@gmail.com",
+     "website":"www.instagram.com/im_ya08"
+  },
+  {
+    
+      "id":"2",
+      "name":"Ashutosh Saha, CPO and co-founder",
+      "avatar":"https://avatars.githubusercontent.com/u/107404699?v=4",
+      "about":"Frontend Developer & Open-Source Enthusiast",
+      "email":"ashutoshsaha233@gmail.com"
+   },
+  
+ {
+  "id":"3",
+    "name":"Yunus Parvez Khan, CEO and co-founder",
+    "avatar":"https://avatars.githubusercontent.com/u/55030221?v=4",
+    "about":"Frontend Developer & Open-Source Enthusiast",
+    "email":"yunusparvezkhan@gmail.com"
+ }
+]

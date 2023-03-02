@@ -1,0 +1,118 @@
+/* @import url('./properties/cards.css'); */
+@import url('./properties/colors.css');
+/* @import url('./properties/elevations.css'); */
+/* @import url('./properties/input.css'); */
+
+/* component styling */
+@import url('../components/component-global.css');
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--h-white);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar {
+  width: 0.4rem;
+  border-radius: 100%;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.125);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+}
+
+.content-center {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--h-purple);
+    font-weight: 600;
+}
+
+a:hover {
+    text-transform: underline;
+}
+
+/* Flex Box  */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+
+
+.w-50 {
+    width: 50%;
+}
+
+/* border radius  */
+.rounded-5 {
+    border-radius: 5px;
+}
+
+/* media queries for non responsive design */
+div.view-msg {
+    display: none;
+    width: 80%;
+    margin: 50% auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    div.view__app-container {
+        display: none;
+    }
+
+    div.view-msg {
+        display: block;
+    }
+}

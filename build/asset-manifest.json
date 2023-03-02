@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.945cef31.css",
+    "main.js": "/static/js/main.b2ecc967.js",
+    "static/js/787.ddf11c91.chunk.js": "/static/js/787.ddf11c91.chunk.js",
+    "static/media/GuildSS.svg": "/static/media/GuildSS.9d2c00c16c816c78242688e8bb760132.svg",
+    "static/media/index.less": "/static/media/index.2979fe4ba4a7f3287586.less",
+    "index.html": "/index.html",
+    "main.945cef31.css.map": "/static/css/main.945cef31.css.map",
+    "main.b2ecc967.js.map": "/static/js/main.b2ecc967.js.map",
+    "787.ddf11c91.chunk.js.map": "/static/js/787.ddf11c91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.945cef31.css",
+    "static/js/main.b2ecc967.js"
+  ]
+}
